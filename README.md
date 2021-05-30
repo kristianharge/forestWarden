@@ -14,6 +14,8 @@ cd qf_apps
 git clone https://github.com/kristianharge/forestWarden.git
 ```
 
+## Build
+
 - Enter the forestWarden directory, go to the GCC_Project and build the executable :
 
 ```bash
@@ -26,6 +28,8 @@ make
 ```bash
 cp ./output/bin/qf_ssi_ai_app.bin ../../../TinyFPGA-Programmer-Application/
 ```
+
+## Upload
 
 - Connect the Quickfeather devboard to your computer and push the reset button followed by the user button (for more precise information see the **Program** section at : 
 https://github.com/QuickLogic-Corp/TinyFPGA-Programmer-Application/tree/29f3da80d38bf928548ee31897faf924bf30f009)
